@@ -1,0 +1,41 @@
+  table{
+       width: 100%;
+       margin: 20px 0;
+       border-collapse: collapse;
+       margin-bottom: : 50px;
+   }
+   table, th, td{
+       border: 1px solid #cdcdcd;
+   }
+   table th, table td{
+       padding: 5px;
+       text-align: left;
+   }
+  fieldset{
+    width:330px;
+  }
+    legend{
+      font-weight: bold;
+    }
+    form {
+      width: 300px;
+     }
+     label, input {
+      display: inline-block;
+      vertical-align: baseline;
+      width: 125px;
+      }
+      label {
+        color: #2D2D2D;
+        font-size: 15px;
+      }
+    form, input {
+      box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      -webkit-box-sizing: border-box;
+     }
+       #sub{
+         width:60px;
+         margin-left:150px;
+         margin-top: 5px;
+       }

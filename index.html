@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <script src= 'http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js'></script>
+  <script src ="script.js"></script>
+  <title>Users</title>
+</head>
+<body>
+  <table id="table1">
+    <tbody>
+      <tr>
+      <th>User #</th>
+      <th>First Name</th>
+      <th>Last Name</th>
+      <th>Email</th>
+      <th>Phone Number</th>
+    </tr>
+    </tbody>
+  </table>
+
+  <fieldset>
+
+  <legend>Add a User</legend>
+    <form name="form1" action="index.html" method="post"><br>
+      <label for="firstname">First Name: </label><input id="firstname"  type="text" name="firstname" ><br>
+      <label for="lastname">Last Name: </label><input id="lastname" type="text" name="lastname"><br>
+      <label for ="email">Email: </label><input id="email" type="text" name="email" ><br>
+      <label for="phonenum">Phone #: </label><input id="phonenum" type="text" name="phonenum"><br>
+      <input id="sub" type="submit" value="Submit">
+    </form>
+  </fieldset>
+</body>
+</html>
